@@ -1,4 +1,4 @@
-import { Home, CreditCard, PiggyBank, Settings } from "lucide-react";
+import { Home, CreditCard, PiggyBank, Settings as SettingsIcon } from "lucide-react";
 import Index from "./pages/Index.jsx";
 import Transactions from "./pages/Transactions.jsx";
 import Savings from "./pages/Savings.jsx";
@@ -29,7 +29,7 @@ export const navItems = [
   {
     title: "Settings",
     to: "/settings",
-    icon: <Settings className="h-4 w-4" />,
+    icon: <SettingsIcon className="h-4 w-4" />,
     page: <Settings />,
   },
 ];
